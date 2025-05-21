@@ -12,7 +12,7 @@ cc_library_shared {
     vendor_available: true,
     srcs: ["PowerExt.cpp"],
     shared_libs: [
-        "android.hardware.power-V5-ndk",
+        "android.hardware.power-V6-ndk",
         "libbinder_ndk",
         "liblog",
         "lmodroid-power-ext-V1-ndk",
